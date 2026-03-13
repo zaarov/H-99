@@ -12,8 +12,8 @@ myEmptyList = []
 
 
 lastItem :: [a] -> a
-lastItem [] = error "empty list"
-lastItem x  = x !! (length x - 1)
+lastItem []  = error "empty list"
+lastItem xs  = xs !! (length xs - 1)
 
 
 main :: IO ()
