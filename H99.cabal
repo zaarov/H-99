@@ -1,0 +1,122 @@
+cabal-version:      3.8
+
+name:               H99
+
+version:            0.1.0.0
+
+build-type:         Simple
+
+common warnings
+    ghc-options: -Wall
+
+executable p01
+  import:         warnings
+  main-is:        Main.hs
+  hs-source-dirs: src/p01
+  build-depends:  base ^>= 4.18 || ^>= 4.19 || ^>= 4.20
+  default-language: GHC2021
+
+executable p02
+  import:         warnings
+  main-is:        Main.hs
+  hs-source-dirs: src/p02
+  build-depends:  base ^>= 4.18 || ^>= 4.19 || ^>= 4.20
+  default-language: GHC2021
+
+executable p03
+  import:         warnings
+  main-is:        Main.hs
+  hs-source-dirs: src/p03
+  build-depends:  base ^>= 4.18 || ^>= 4.19 || ^>= 4.20
+  default-language: GHC2021
+
+executable p04
+  import:         warnings
+  main-is:        Main.hs
+  hs-source-dirs: src/p04
+  build-depends:  base ^>= 4.18 || ^>= 4.19 || ^>= 4.20
+  default-language: GHC2021
+
+executable p05
+  import:         warnings
+  main-is:        Main.hs
+  hs-source-dirs: src/p05
+  build-depends:  base ^>= 4.18 || ^>= 4.19 || ^>= 4.20
+  default-language: GHC2021
+
+executable p06
+  import:         warnings
+  main-is:        Main.hs
+  hs-source-dirs: src/p06
+  build-depends:  base ^>= 4.18 || ^>= 4.19 || ^>= 4.20
+  default-language: GHC2021
+
+executable p07
+  import:         warnings
+  main-is:        Main.hs
+  hs-source-dirs: src/p07
+  build-depends:  base ^>= 4.18 || ^>= 4.19 || ^>= 4.20
+  default-language: GHC2021
+
+executable p08
+  import:         warnings
+  main-is:        Main.hs
+  hs-source-dirs: src/p08
+  build-depends:  base ^>= 4.18 || ^>= 4.19 || ^>= 4.20
+  default-language: GHC2021
+
+executable p09
+  import:         warnings
+  main-is:        Main.hs
+  hs-source-dirs: src/p09
+  build-depends:  base ^>= 4.18 || ^>= 4.19 || ^>= 4.20
+  default-language: GHC2021
+
+executable p10
+  import:         warnings
+  main-is:        Main.hs
+  hs-source-dirs: src/p10
+  build-depends:  base ^>= 4.18 || ^>= 4.19 || ^>= 4.20
+  default-language: GHC2021
+
+executable p11
+  import:         warnings
+  main-is:        Main.hs
+  hs-source-dirs: src/p11
+  build-depends:  base ^>= 4.18 || ^>= 4.19 || ^>= 4.20
+  default-language: GHC2021
+
+executable p12
+  import:         warnings
+  main-is:        Main.hs
+  hs-source-dirs: src/p12
+  build-depends:  base ^>= 4.18 || ^>= 4.19 || ^>= 4.20
+  default-language: GHC2021
+
+executable p13
+  import:         warnings
+  main-is:        Main.hs
+  hs-source-dirs: src/p13
+  build-depends:  base ^>= 4.18 || ^>= 4.19 || ^>= 4.20
+  default-language: GHC2021
+
+executable p14
+  import:         warnings
+  main-is:        Main.hs
+  hs-source-dirs: src/p14
+  build-depends:  base ^>= 4.18 || ^>= 4.19 || ^>= 4.20
+  default-language: GHC2021
+
+executable p15
+  import:         warnings
+  main-is:        Main.hs
+  hs-source-dirs: src/p15
+  build-depends:  base ^>= 4.18 || ^>= 4.19 || ^>= 4.20
+  default-language: GHC2021
+
+executable p16
+  import:         warnings
+  main-is:        Main.hs
+  hs-source-dirs: src/p16
+  build-depends:  base ^>= 4.18 || ^>= 4.19 || ^>= 4.20
+  default-language: GHC2021
