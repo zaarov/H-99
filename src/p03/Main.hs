@@ -9,7 +9,7 @@ myStr = "haskell"
 
 
 elementAt :: [a] -> Int -> a
-elementAt _ 0 = error "there is no position 0"
+elementAt _ 0  = error "there is no position 0"
 elementAt xs n = if n > length xs then error "out of range" else xs !! (n - 1)
 
 
