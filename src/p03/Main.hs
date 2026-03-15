@@ -13,6 +13,6 @@ elementAt xs n = if n > length xs then error "out of range" else xs !! (n - 1)
 
 main :: IO ()
 main = do 
-    print (elementAt myCharList 3)
-    print (elementAt myIntList 1)
-    print (elementAt myStr 7)
+  print (elementAt myCharList 3)
+  print (elementAt myIntList 1)
+  print (elementAt myStr 7)

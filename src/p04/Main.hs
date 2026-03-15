@@ -13,6 +13,6 @@ myLenght (_:xs) = 1 + myLenght xs
 
 main :: IO ()
 main = do
-    print (myLenght myStr)
-    print (myLenght myIntList)
-    print (myLenght myEmpltyList)
+  print (myLenght myStr)
+  print (myLenght myIntList)
+  print (myLenght myEmpltyList)

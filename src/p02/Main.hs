@@ -17,7 +17,7 @@ lastButOne xs  = xs !! (length xs - 2)
 
 main :: IO ()
 main = do
-    print (lastButOne myList)
-    print (lastButOne mySecondList)
-    print (lastButOne myOneItemList)
-    print (lastButOne myEmptyList)
+  print (lastButOne myList)
+  print (lastButOne mySecondList)
+  print (lastButOne myOneItemList)
+  print (lastButOne myEmptyList)

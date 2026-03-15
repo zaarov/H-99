@@ -16,7 +16,7 @@ lastItem xs = xs !! (length xs - 1)
 
 main :: IO ()
 main = do 
-    print (lastItem myList)
-    print (lastItem mySecondList)
-    print (lastItem myOneItemList)
-    print (lastItem myEmptyList)
+  print (lastItem myList)
+  print (lastItem mySecondList)
+  print (lastItem myOneItemList)
+  print (lastItem myEmptyList)
