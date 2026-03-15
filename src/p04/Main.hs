@@ -7,7 +7,6 @@ myIntList = [1, 2, 3]
 myEmpltyList :: [a]
 myEmpltyList = []
 
-
 myLenght :: [a] -> Int
 myLenght []     = 0
 myLenght (_:xs) = 1 + myLenght xs

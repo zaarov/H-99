@@ -10,11 +10,9 @@ myOneItemList = [9]
 myEmptyList :: [Integer]
 myEmptyList = []
 
-
 lastItem :: [a] -> a
 lastItem [] = error "empty list"
 lastItem xs = xs !! (length xs - 1)
-
 
 main :: IO ()
 main = do 

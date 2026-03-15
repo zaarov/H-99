@@ -10,12 +10,10 @@ myOneItemList = [8]
 myEmptyList :: [Integer]
 myEmptyList = []
 
-
 lastButOne :: [a] -> a
 lastButOne []  = error "empty list"
 lastButOne [_] = error "list with few elements"
 lastButOne xs  = xs !! (length xs - 2)
-
 
 main :: IO ()
 main = do
